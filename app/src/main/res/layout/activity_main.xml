@@ -10,6 +10,7 @@ See the License for the specific language governing permissions and
 limitations under the License. -->
 
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/constraint_layout"
     android:layout_width="match_parent"
@@ -20,4 +21,14 @@ limitations under the License. -->
 
     <!-- TODO (02) Create, align, and style Box One -->
 
+    <TextView
+        android:id="@+id/box_one_text"
+        style="@style/WhiteBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/box_one_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
