@@ -18,4 +18,9 @@ limitations under the License. -->
     <string name="box_five">Box Five</string>
     <string name="how_to_play">This is a game:</string>
     <string name="tap_the_boxes_and_buttons">Tap the screen and buttons.</string>
+    <string name="this_is_the_game">This is the game:</string>
+    <string name="tap_the_screen_text">Tap the screen and buttons. Play as long as you wish. This is to check how to fit longer content.</string>
+    <string name="red_button">Red</string>
+    <string name="yellow_button">Yellow</string>
+    <string name="green_button">Green</string>
 </resources>
